@@ -21,3 +21,46 @@
  * concat
  */
 
+function addOne(input){
+	return Number(input) + 1
+}
+
+function concat(input1, input2){
+	return "" + input1 + input2;
+}
+
+function not(input){
+	return !input;
+}
+
+
+function isEven(input){
+	if (input === false){
+		return false;
+	}
+	return input % 2 === 0;
+}
+
+
+function isTrue(input){
+	return input === true;
+}
+
+function isFalse(input) {
+	return input === false;
+}
+
+function isIdentical(input1, input2){
+	return input1 === input2;
+}
+function isEqual(input1, input2){
+	return input1 == input2;
+}
+
+function or(input1, input2){
+	return input1 || input2;
+}
+
+function and(input1, input2){
+	return input1 && input2
+}
